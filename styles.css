@@ -1,4 +1,18 @@
+body {
+    font-family: raleway ;
+}
+
 footer {
 background-color : #F2F2F2 ;
 display: flex;
+}
+
+footer h1 {
+    font-size: 16px;
+}
+
+#apropos, #noshergements, #assistance {
+    margin-right: 150px;
+
+
 }
