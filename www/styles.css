@@ -1,36 +1,98 @@
 body {
     font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+
+/* Mise en forme du header */
+
+#logo img {
+    height: 60px;
+}
+
+#titreheader {
+    font-size : 18px;
+    font-weight: bold ;
+}
+
+/* Rechercher dans header */
+
+.recherche {
+    display: flex;
+    margin: 20px;
+}
+
+.recherche input {
+    display: flex;
+    padding: 15px;
+}
+
+#rechercher {
+    background-color: #0065FC;
+    border: none;
+    border-radius: 0 15px 15px 0;
+    color: white;
+}
+
+/* Mise en forme des filtres dans header */
+
+.filtres {
+    display: flex;
+}
+
+.filtres h1 {
+    font-size: 14px;
+    font-weight: none;
+}
+
+.boutons_filtres {
+    display: flex;
+}
+
+/* Menu de navigation dans header */
+
+nav {
+    width: 600px;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 85px;
+    color: #0065FC;
 }
 
 
 /* mise en forme footer */
 
 footer {
-    background-color : #F2F2F2 ;
-    display: flex;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    }
-    
-    footer h1 {
-        font-size: 16px;
-        padding-left: 40px;
-    }
-    
-    #apropos, #noshergements, #assistance {
-        margin-right: 100px;
-        
-        
-    
-    }
-    
-    #apropos ul, #noshergements ul, #assistance ul{
-        list-style-type: none;
-        line-height:30px ;
-    
-    }
-    
-    a {
-            text-decoration:none; 
-            color: black;
-    }
+background-color : #F2F2F2 ;
+display: flex;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+
+footer h1 {
+    font-size: 16px;
+    padding-left: 40px;
+}
+
+#apropos, #noshergements, #assistance {
+    margin-right: 100px;
+}
+
+#apropos ul, #noshergements ul, #assistance ul{
+    list-style-type: none;
+    line-height:30px ;
+
+}
+
+a {
+        text-decoration:none; 
+        color: black;
+}
