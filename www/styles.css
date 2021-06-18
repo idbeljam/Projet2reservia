@@ -1,7 +1,24 @@
 body {
     font-family: 'Raleway', sans-serif;
-    margin:  0  0  0 30px;
+    margin:  15px;
 }
+
+/* Mise en forme générale */
+
+
+.bleufonce {
+        color:#0065FC;
+}
+
+.gras {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+
 
 /* Mise en forme du header */
 
@@ -13,6 +30,42 @@ body {
     font-size : 18px;
     font-weight: bold ;
 }
+
+/* Menu de navigation dans header */
+
+
+nav {
+    width: 600px;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+
+nav a {
+    color: black;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 85px;
+}
+
+#hbrgt::before {
+    content: "";
+    position: absolute;
+    top : 0;
+    background-color: #0065FC;
+    width : 111px;
+    height: 3px;
+    
+
+
+}
+
 
 /* zone de recherche dans header */
 
@@ -41,44 +94,52 @@ body {
 
 /* Mise en forme des filtres dans header */
 
-.filtres i {
+.filtres {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.boutons_filtres {
+    display: flex;
+    margin : 0 15px 0 15px;
+    border: #F2F2F2 1px solid;
+    border-radius: 25px;
+}
+
+.boutons_filtres:hover {
+    background-color: #F2F2F2;
+    
+}
+
+.filtres i  {
     display: flex;
     align-items: center;
     padding: 11px;
     font-size: 10px ;
     background-color: #DEEBFF;
     color: #0065FC;
-    border-radius: 50% ;
+    border-radius: 25px ;
 }
 
-.boutons_filtres {
-    border: #F2F2F2 1px solid;
-    border-radius: 20px;
-}
- 
-.boutons_filtres h1 {
+
+.boutons_filtres a  {
     margin: 0;
+    color: black;
     display: flex;
     align-items: center;
     padding: 0 15px 0 10px;    
 }
 
-.filtres {
-    display: flex;
-    margin-bottom: 20px;
-}
 
 .filtres h1 {
+    display: flex;
     font-size: 14px;
     font-weight: none;
 }
 
-.boutons_filtres {
-    display: flex;
-    margin : 0 15px 0 15px;
-}
 
 /* point d'information */
+
 
 #info {
     margin-bottom: 20px;
@@ -98,24 +159,6 @@ body {
     font-size: 12px;
 }
 
-/* Menu de navigation dans header */
-
-nav {
-    width: 600px;
-    position: absolute;
-    right: 30px;
-    top: 30px;
-}
-
-nav ul {
-    display: flex;
-    list-style: none;
-}
-
-nav ul li {
-    margin-right: 85px;
-    color: #0065FC;
-}
 
 
 /* mise en forme footer */
@@ -138,11 +181,12 @@ footer h1 {
 
 #apropos ul, #noshergements ul, #assistance ul{
     list-style-type: none;
-    line-height:30px ;
+    line-height: 30px ;
 
 }
 
-a {
-        text-decoration:none; 
-        color: black;
+footer a {
+    color:black;
 }
+
+ 
