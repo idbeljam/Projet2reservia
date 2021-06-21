@@ -1,0 +1,22 @@
+
+
+@media screen and (max-width: 600px) {
+    
+    #contener-nav
+    {
+        flex-wrap: wrap-reverse;
+        margin-top: 50px;
+        float: none;
+    }
+
+    .filtres {
+        flex-wrap: wrap ;
+    }
+
+    #titreheader {
+        margin-top: 60px;
+    }
+
+    
+    }
+}
