@@ -1,6 +1,7 @@
 body {
     font-family: 'Raleway', sans-serif;
-    margin:  15px;
+    margin:  0;
+    
 }
 
 /* Mise en forme générale */
@@ -18,49 +19,52 @@ a {
     text-decoration: none;
 }
 
-iframe{
-    position:absolute;
-    width: 100%;
-    height: 100%;
-    border: none;
-    border-style:none;
-    top: 20px;
-    
-    
+
+#logo img {
+    height: 50px;
+    padding-left: 30px;
 }
+
 /* Menu de navigation dans header */
 
+.contener-nav-logo{
+    display: flex;
+}
 
-nav {
+
+.debut-nav {
+    display: flex;
+}
+
+
+ nav{
+     display: flex;
+    justify-content: flex-end;
     width: 100%;
     position:absolute;
+    border: 3px solid grey;
     
 }
 
-nav a {
-    color: black;
-}
-
-nav ul {
+#conteneur{
     display: flex;
-    list-style: none;
-    float: right;
+    width: 100%;
+    justify-content: flex-end;
+    border: 3px solid hotpink;
+    padding-right: 30px;
+
 }
 
-nav ul li {
-    margin-right: 85px;
-    
+.element {
+    margin-right: 40px;
+    line-height: 70px;
 }
 
-#hbrgt::before {
-    content: "";
-    position: absolute;
-    top : 0;
-    background-color: #0065FC;
-    width : 111px;
-    height: 3px;
-    
+.element:hover {
+    border-top: 3px solid #0065FC;
+
 }
+
 
 /* mise en forme footer */
 

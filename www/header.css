@@ -1,6 +1,11 @@
+*{
+margin: 0;
+}
+
 header {
     font-family: 'Raleway', sans-serif;
-    margin:  15px;
+    border: 2px solid green;
+    width: 100%;
 }
 
 a {
@@ -9,9 +14,14 @@ a {
 
 /* Mise en forme du header */
 
-#logo img {
-    height: 50px;
+.header-section2 {
+    
+    width: 95%;
+    margin: auto;
+    padding-top: 20px;
+    border: 3px solid red;
 }
+
 
 #titreheader {
     font-size : 18px;
