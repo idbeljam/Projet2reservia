@@ -1,0 +1,15 @@
+
+footer {
+    background-color: #F2F2F2;
+    padding: 20px 0 20px 0;
+}
+
+footer h1 {
+    font-size: 16px;
+    padding-left: 40px;
+    margin-top: 45px;
+}
+
+footer a {
+    line-height: 30px;
+}

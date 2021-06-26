@@ -1,0 +1,40 @@
+
+
+header {
+    display: grid;
+    height: 20vh;
+    grid-template-columns: repeat(2, 1fr) ;
+    grid-template-rows: repeat(2, 1fr) ; 
+    grid-template-areas: 
+    "logo signup"
+    "nav nav"
+    ;
+  }
+
+.logo {
+    grid-area: logo;
+}
+
+.menu {
+    grid-area: nav;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+.signup {
+    display: flex;
+    justify-content: flex-end;
+    grid-area: signup;
+    text-decoration: none;
+    padding: 20px 15px 0 0 ;
+    font-weight: bold;
+}
+
+
+.imglogo {
+    height: 55px ;
+    padding: 10px 0 0 10px;
+    
+}
