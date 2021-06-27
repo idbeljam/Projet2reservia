@@ -2,7 +2,7 @@
 
 header {
     display: grid;
-    height: 20vh;
+    height: 20%;
     grid-template-columns: repeat(2, 1fr) ;
     grid-template-rows: repeat(2, 1fr) ; 
     grid-template-areas: 
@@ -37,4 +37,28 @@ header {
     height: 55px ;
     padding: 10px 0 0 10px;
     
+}
+
+@media only screen and (min-width: 1000px)
+{
+    header { 
+        display: grid;
+        height: 115px;
+        align-items: center;
+        grid-template-columns: auto 22% 11%;
+        grid-template-rows: repeat(1, 1fr) ; 
+        grid-template-areas: 
+        "logo nav signup"
+        ;
+    }
+
+    .signup {
+        padding: 0;
+        padding-right: 20px;
+
+    }
+
+    .imglogo {
+        padding: 0 0 0 20px ;
+    }
 }
