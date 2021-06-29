@@ -6,5 +6,59 @@
 @import 'footer.css';
 
 
+.sect1 {
+    padding: 25px;
+}
 
-  
+.sect1 h1 {
+    font-size: 22px;
+}
+
+.sect1 p {
+
+}
+
+/* zone de recherche  */
+
+.search {
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+}
+
+#textsearch {
+    display: none;
+}
+
+#iconposition {
+    background-color: #F2F2F2;
+    width : 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 15px 0 0 15px;
+     
+}
+
+#iconposition i {
+    padding: 15px;
+}
+
+.zonesearch {
+    height: 50px;
+    width: 230px ;
+    border: 1px solid #F2F2F2;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+#iconsearch {
+    position: absolute;
+    right: 30px;
+    background-color: #0065FC ;
+    border: none;
+    width : 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 15px ;
+    color: white;
+}

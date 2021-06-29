@@ -25,12 +25,14 @@
     <!-- navigation - menu-->
 
         <nav class="menu">
-            <a class="bleuf " href="#">
-                Hébergements 
-            </a>
-            <a href="#">
-                Activités
-            </a>
+
+                <a class="bordertop bleuf" href="#">
+                    Hébergements 
+                </a>
+
+                <a class="bordertop" href="#">
+                    Activités
+                </a>
         </nav>
 
     <!-- s'inscrire -->
@@ -40,7 +42,63 @@
 
     </header>
 
+  <main>
 
+    <!-- section recherche et filtres -->
+
+    <section class="sect1">
+      <!-- entete section recherche -->
+        <div>
+            <h1>Trouver votre hébergement pour des vacances de rêve</h1>
+            <p>En plein centre ville ou en pleine nature</p>
+        </div>
+
+        <!-- zone de recherche -->
+        <div class="search">
+            <div id="iconposition"> 
+                <i  class="fas fa-map-marker-alt"></i>
+            </div>
+            <form action="/action_page.php">
+                <input type="text" class="zonesearch" name="fname" placeholder="Marseille, France"><br>
+            </form> 
+                <button id="iconsearch" class="btn"><i class="fas fa-search"></i></button>
+                <button id="textsearch"class="btn">Rechercher</button>
+              
+        </div>
+
+        <!-- filtres -->
+
+        <div>
+            <h2>Filtres</h2>
+            <div>
+                <button class="btn"><i class="fas fa-money-bill-wave"></i></button>
+                <h2><a href="#">Economique</a></h2>
+            </div>
+
+            <div>
+                <button class="btn"><i class="fas fa-child"></i></button>
+                <h2><a href="#">Familial</a></h2>
+            </div>
+
+            <div>
+                <button class="btn"><i class="fas fa-heart"></i></button>
+                <h2><a href="#">Romantique</a></h2>
+            </div>
+
+            <div>
+                <button class="btn"><i class="fas fa-dog"></i></button>
+                <h2><a href="#">Animaux autorisés</a></h2>
+            </div>
+
+            <p><i class="fas fa-info"></i> Plus de 500 logements sont disponibles dans cette ville </p>
+
+
+        </div>
+    
+    </section>
+
+
+  </main>
 
         
        
