@@ -1,0 +1,40 @@
+.sect1 {
+    padding: 20px;
+    display: grid;
+    gap: 30px;
+
+}
+
+.sect1 h1 {
+    font-size: 22px;
+}
+
+.sect1 p {
+    margin-top: 13px;
+
+}
+
+.contenair-info {
+    display: flex;
+    gap: 15px;
+    
+}
+
+.contenair-info p {
+    margin: 0;
+    
+}
+
+.info {
+    display: flex;
+    font-size: 12px;
+    color: #0065FC;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    width: 20px;
+    padding: 10px;
+    border: 1px solid #F2F2F2;
+    border-radius: 20px;
+
+}
