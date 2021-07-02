@@ -33,7 +33,6 @@ header {
 }
 
 .menu a:hover {
-    border-bottom: none;
     border-bottom: 3px #0065FC solid;
 }
 
@@ -75,5 +74,14 @@ header {
 
     .imglogo {
         padding: 0 0 0 20px ;
+    }
+
+    .menu a {
+        border-bottom: none;
+    }
+
+    .menu a:hover {
+        border-bottom: none;
+        border-top: 3px #0065FC solid;
     }
 }
