@@ -1,0 +1,23 @@
+
+aside {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    background-color: #F2F2F2;
+}
+
+.header-aside{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.header-aside h2 {
+    padding-bottom: 15px;
+    font-size: 22px;
+}
+
+.iconpop{
+    font-size: 20px;
+}

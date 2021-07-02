@@ -1,0 +1,47 @@
+
+.card {
+    display: grid;
+    grid-row: repeat(3, 1fr);
+    grid-column: 173px auto;
+    gap: 15px;
+    grid-template-areas:
+    "imgcard legend"
+    "imgcard legend"
+    "imgcard eval"
+    ;
+
+    background-color: white;
+    border: 4px solid white;
+    border-radius: 25px;
+
+    
+}
+
+.card h3 {
+    padding: 10px 10px 10px 0;
+    font-size: 16px;
+}
+
+.imgcard {
+    grid-area: imgcard;
+    height: 130px;
+    width: 130px;
+    object-fit: cover;
+
+    border-radius: 25px 0 0 25px ;
+    
+}
+
+.legend {
+    grid-area: legend;
+    
+}
+
+.eval {
+    display: flex;
+    grid-area: eval;
+    align-items: flex-end;
+    padding-bottom: 10px;
+
+    font-size: 12px;
+}
