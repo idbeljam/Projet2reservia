@@ -1,9 +1,10 @@
 
+
 .card {
     display: grid;
-    grid-row: repeat(3, 1fr);
-    grid-column: 173px auto;
-    gap: 15px;
+    grid-template-rows: 40px 40px 40px;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 15px;
     grid-template-areas:
     "imgcard legend"
     "imgcard legend"
@@ -17,24 +18,31 @@
     
 }
 
+
+
+.imgcard {
+    max-width: 100%;
+    object-fit: cover;
+    
+    grid-area: imgcard;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px 0 0 25px ;
+    
+}
+
 .card h3 {
     padding: 10px 10px 10px 0;
     font-size: 16px;
 }
 
-.imgcard {
-    grid-area: imgcard;
-    height: 130px;
-    width: 130px;
-    object-fit: cover;
-
-    border-radius: 25px 0 0 25px ;
-    
-}
-
 .legend {
     grid-area: legend;
     
+}
+
+.legend p {
+    font-size: 14px;
 }
 
 .eval {
